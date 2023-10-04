@@ -61,7 +61,7 @@ export default async function parsePresence(user) {
         detailsImage: false,
         state: '',
         height: 97,
-    }
+    };
 
     const details = gameObject.details ? processText(gameObject.details) : '';
 
