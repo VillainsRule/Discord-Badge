@@ -1,0 +1,16 @@
+{
+    "name": "discord-badge",
+    "version": "1.0.0",
+    "description": "a useful tool to display what you're doing on Discord.",
+    "main": "src/main.js",
+    "type": "module",
+    "scripts": {
+        "uninstall": "rm -rf package-lock.json && rm -rf node_modules/"
+    },
+    "dependencies": {
+        "discord.js": "^14.12.1",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "node-fetch": "^3.3.2"
+    }
+}
